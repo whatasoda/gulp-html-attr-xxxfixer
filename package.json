@@ -1,0 +1,38 @@
+{
+  "name": "gulp-html-attr-xxxfixer",
+  "version": "1.0.0",
+  "description": "This is Gulp plugin to give prefix or/and suffix to path in html file",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run build && npx gulp",
+    "build": "tsc"
+  },
+  "author": "whatasoda",
+  "license": "MIT",
+  "dependencies": {
+    "@types/cheerio": "^0.22.7",
+    "@types/through2": "^2.0.33",
+    "@types/vinyl": "^2.0.2",
+    "cheerio": "^1.0.0-rc.2",
+    "plugin-error": "^1.0.1",
+    "through2": "^2.0.3",
+    "vinyl": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/gulp": "^4.0.5",
+    "gulp": "^4.0.0",
+    "ts-node": "^6.1.0",
+    "typescript": "^2.9.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whatasoda/gulp-html-attr-xxxfixer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/whatasoda/gulp-html-attr-xxxfixer/issues"
+  },
+  "homepage": "https://github.com/whatasoda/gulp-html-attr-xxxfixer#readme"
+}
